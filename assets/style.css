@@ -1,1 +1,70 @@
-{\rtf1}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-container {
+  width: 1236px;
+  height: 984px;
+  margin: auto;
+  background-color: #EDF1F5;
+}
+.main-container .top-bar {
+  height: 92px;
+  margin-top: 0;
+  margin-left: 2px;
+  margin-right: 2px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 14px;
+}
+.main-container .top-bar .logo {
+  height: 64px;
+  width: 64px;
+  margin-top: 14px;
+  margin-bottom: 14px;
+  margin-left: 36px;
+}
+.main-container .top-bar .icon_wrapper {
+  height: 18px;
+  width: 18px;
+  margin-left: 27px;
+}
+.main-container .top-bar .top-bar-content {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  margin-left: 15px;
+  color: #38424F;
+}
+.main-container .top-bar .top-bar-btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 193px;
+  height: 48px;
+  background-color: #680DB4;
+  border-radius: 4px;
+  border: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: #F6ECFF;
+  margin-top: 14.5px;
+  margin-bottom: 14.5px;
+  margin-left: 650px;
+  margin-right: 36px;
+}
+.main-container .top-bar .top-bar-btn .top-btn-icon {
+  margin-top: 12px;
+  margin-bottom: 12px;
+  margin-left: 16px;
+}/*# sourceMappingURL=style.css.map */
